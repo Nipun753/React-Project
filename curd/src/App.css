@@ -1,0 +1,134 @@
+.App{
+  display: flex;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.col1{
+  background-color: gray;
+   padding: 20px;
+  width: 40%;
+  height: 80%;
+}
+
+.col2{
+  margin-left: 10%;
+  background-color: gray;
+  padding: 20px;
+ width: 40%;
+ height: 500px;
+}
+
+.Registration{
+  background-color: gray;
+ padding: 20px;
+  margin: auto;
+  height: 100vh;
+  
+}
+.Registration h1{
+  text-align: center;
+  color: wheat;
+}
+label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+}
+ 
+.input{
+  font-size: larger;
+  padding: 5px;
+  margin: 7px;
+  width: 90%;
+  
+}
+.btn{
+  color: white;
+  background-color: palevioletred;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+ margin: auto;
+  border: none;
+  cursor: pointer;
+}
+ 
+.messages{
+  display: flex;
+  justify-content: center;
+}
+ 
+.error{
+  display: block;
+  background-color: red;
+  color: white;
+  
+ 
+  padding: 5px;
+}
+ 
+.success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+.Registration p{
+  color: white;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+form{
+  width: 60vh;
+  margin: auto;
+}
+button{
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+button :hover{
+  background-color: tomato;
+
+}
+.changePassword{
+  height: 50px;
+  background-color: wheat;
+  padding: 10px;
+  
+}
+.changePassword :hover{
+  color: white;
+  background-color: aquamarine;
+}
+.footer{
+  background-color: black;
+}
+.cardGallery :hover{
+  transform: scale(1.05);
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 7px;
+    width: 100%;
+    
+  }
+  form{
+    width: 100%;
+    margin: auto;
+  }
+
+}
