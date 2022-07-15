@@ -1,0 +1,8 @@
+.welcome {
+    height: 100px;
+    border: 1px solid white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

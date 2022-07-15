@@ -1,0 +1,108 @@
+.Login {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 90vh;
+    background-color: #131316
+}
+
+h5 {
+    margin-left: 20px;
+}
+
+.email i {
+    margin-right: 5px;
+    color: white;
+    border: none;
+}
+
+.formImg {
+    width: 450px;
+    height: 400px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logininput {
+    display: block;
+    width: 80%;
+    margin: 10px 0px;
+    height: 40px;
+    border: none;
+    color: white;
+
+
+}
+
+.loginbtn {
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.loginform p {
+    width: 80%;
+    font-size: medium;
+}
+
+@media only screen and (max-width: 600px) {
+    .loginform {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .Login {
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 90vh;
+        background-color: #131316
+    }
+
+    .email {
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    .logininput {
+        display: block;
+        width: 80%;
+        margin: 10px 0px;
+        height: 40px;
+        border: none;
+        color: white;
+
+
+    }
+
+    .loginbtn {
+        width: 80%;
+        height: 35px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .loginform p {
+        width: 80%;
+        font-size: medium;
+    }
+
+    .formImg {
+        width: 250px;
+        height: 200px;
+    }
+}

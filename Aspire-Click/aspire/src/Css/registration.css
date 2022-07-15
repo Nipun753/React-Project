@@ -1,0 +1,48 @@
+.registraion {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 98vh;
+    background-color: #11104c
+}
+
+
+
+.emailNAME i {
+
+    margin-right: -1px;
+    color: white;
+    border: none;
+
+}
+
+.emailNAME {
+    display: flex;
+    align-items: center;
+
+}
+
+.logininput {
+    display: block;
+    width: 80%;
+    margin: 10px 0px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: transparent;
+
+}
+
+.loginbtn {
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.loginform p {
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: medium;
+}
